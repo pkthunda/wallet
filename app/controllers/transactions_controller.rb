@@ -12,6 +12,7 @@ class TransactionsController < ApplicationController
     # end
     # @total_amount = total
     @transaction_number = @transactions.length
+
   end
 
 

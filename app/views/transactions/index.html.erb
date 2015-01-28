@@ -30,5 +30,10 @@
 
 <div>
   <p> Your total amount is: <%= @total_amount %> </p>
+
+    <% if @total_amount < 0 %>
+      <p> NO MONEYS!!! </p>
+    <% end %>
+
   <p> Your number of transactions: <%= @transaction_number %> </p>
 </div>

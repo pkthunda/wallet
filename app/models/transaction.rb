@@ -8,4 +8,6 @@ class Transaction < ActiveRecord::Base
   #   return total
   # end
 
+
+
 end
