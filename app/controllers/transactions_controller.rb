@@ -69,6 +69,6 @@ class TransactionsController < ApplicationController
 
     # Never trust parameters from the scary internet, only allow the white list through.
     def transaction_params
-      params.require(:transaction).permit(:transaction_type, :account_type, :account_amount, :running_total)
+      params.require(:transaction).permit(:account_type, :transaction_amount)
     end
 end

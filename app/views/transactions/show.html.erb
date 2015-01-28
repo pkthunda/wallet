@@ -1,23 +1,13 @@
 <p id="notice"><%= notice %></p>
 
 <p>
-  <strong>Transaction type:</strong>
-  <%= @transaction.transaction_type %>
-</p>
-
-<p>
   <strong>Account type:</strong>
   <%= @transaction.account_type %>
 </p>
 
 <p>
-  <strong>Account amount:</strong>
-  <%= @transaction.account_amount %>
-</p>
-
-<p>
-  <strong>Running total:</strong>
-  <%= @transaction.running_total %>
+  <strong>Transaction amount:</strong>
+  <%= @transaction.transaction_amount %>
 </p>
 
 <%= link_to 'Edit', edit_transaction_path(@transaction) %> |
