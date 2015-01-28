@@ -38,8 +38,7 @@ This application will be built around a set of scaffold-like views (for editing 
 
 * The user should be able to go to the root URL of the application and see:
   * the total amount of money in his/her account.
-  * the net amount spent in each of the past six months.
-  * the total number of transactions in each of the past six months.
+  * the number of transactions on the account.
 * The user should be chastised vehemently if the balance on the account is negative.
 * The user should be able to see all transactions, add new transactions, and edit or delete existing transactions.  The total and count on the root page should update as these transactions change.
 
