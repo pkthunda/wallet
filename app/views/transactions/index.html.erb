@@ -30,10 +30,14 @@
 
 <div>
   <p> Your total amount is: <%= @total_amount %> </p>
-
-    <% if @total_amount < 0 %>
-      <p> NO MONEYS!!! </p>
+    <% if @total_amount <= 0 %>
+      <h2> NO MONEYS!!! </h2>
     <% end %>
-
   <p> Your number of transactions: <%= @transaction_number %> </p>
 </div>
+
+
+<style>
+h1 {color: red}
+h2 {color: blue}
+</style>
