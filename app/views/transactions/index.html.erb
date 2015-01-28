@@ -29,5 +29,6 @@
 <%= link_to 'New Transaction', new_transaction_path %>
 
 <div>
-  <p> Your total amount: transaction.amount </p>
-  <p> Your number of transactions: transaction.number </p>
+  <p> Your total amount is: <%= @total_amount %> </p>
+  <p> Your number of transactions: <%= @transaction_number %> </p>
+</div>
